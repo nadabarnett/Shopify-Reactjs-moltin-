@@ -1,0 +1,534 @@
+/*============================
+		General Style
+==============================*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('asstes/fonts/AvenirLTStd-Book.woff2') format('woff2'),
+    url('asstes/fonts/AvenirLTStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('asstes/fonts/AvenirLTStd-Black.woff2') format('woff2'),
+    url('asstes/fonts/AvenirLTStd-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Avenir LT Std';
+  src: url('asstes/fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+    url('asstes/fonts/AvenirLTStd-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: 'Avenir LT Std';
+  text-align: left;
+  font-size: 16px;
+  line-height: 18px;
+  word-wrap: break-word;
+  color: #3e3e3e;
+  background: #fff;
+  overflow-x: hidden;
+  font-weight: 300;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*============================
+		Typography
+==============================*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none !important;
+  color: #343536;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-family: sans-serif;
+  font-family: 'Avenir LT Std';
+  letter-spacing: 1px;
+  color: #3e3e3e;
+  line-height: 24px;
+  font-weight: 400;
+  left: -1px;
+  margin-top: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dark-bg {
+  background: #f4f4f4;
+}
+
+/*============================
+		Header CSS
+==============================*/
+
+.header-top {
+  padding: 0 50px;
+}
+
+.header-top img {
+  padding: 0 5px;
+}
+
+.logo-area {
+  padding: 0px 50px;
+  margin-top: 30px;
+}
+
+.search-area input {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  height: 50px;
+  border: none;
+  border: 0.5px solid #63b22f;
+  border-radius: 5px;
+  padding-right: 50px;
+  margin-bottom: 30px;
+}
+
+.search-area a {
+  font-size: 24px;
+  position: relative;
+  margin-top: -85px;
+  z-index: 999;
+  display: block;
+  float: right;
+  padding: 15px;
+}
+
+.logo-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+.logo-area li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.logo-area li img {
+  margin-right: 10px;
+}
+
+.logo-area li:last-child {
+  padding-right: 0;
+}
+
+/*============================
+		Menu bar  CSS
+==============================*/
+.menu-bar {
+  background: #353535;
+  padding: 20px 0;
+  clear: both;
+}
+
+.menu-bar ul {
+  display: block;
+}
+
+.menu-bar li {
+  display: inline-block;
+}
+
+.menu-bar li a {
+  color: #fff;
+  padding: 0 22px;
+}
+
+.menu-bar li:first-child a {
+  padding-left: 0;
+}
+
+.menu-bar li:last-child a {
+  padding-right: 0;
+}
+.menu {
+  display: none;
+}
+/*============================
+		Banner CSS
+==============================*/
+
+.banner-sec {
+  clear: both;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
+}
+
+.carousel-control.left img {
+  position: absolute;
+  top: 45%;
+  left: 100%;
+}
+
+.carousel-control.right img {
+  position: absolute;
+  top: 45%;
+  right: 100%;
+}
+
+.carousel-caption {
+  top: 15%;
+  left: 5%;
+  right: 5%;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #353535;
+}
+
+.carousel-caption h1 {
+  font-size: 120px;
+  font-weight: 500;
+}
+
+.carousel-caption h2 {
+  font-size: 72px;
+  font-weight: 500;
+}
+
+.carousel-caption a {
+  color: #63b22f;
+  background: #fff;
+  border-radius: 5px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 25px;
+  display: inline-block;
+  width: 225px;
+  height: 50px;
+}
+
+/*============================
+		Brand CSS
+==============================*/
+.brand-sec {
+  clear: both;
+  padding: 30px 0;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.title p {
+  font-size: 24px;
+  margin-bottom: 35px;
+  margin-top: 30px;
+}
+
+.view-all {
+  float: right;
+}
+
+.title a {
+  font-size: 16px;
+  color: #63b22f;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  display: block;
+}
+
+.view-all img {
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: -3px;
+  color: #666;
+}
+
+/*============================
+		Tools Section CSS
+==============================*/
+
+.single-product p {
+  font-size: 16px;
+  line-height: 10px;
+}
+
+.single-product p span {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.single-product h3 {
+  font-size: 24px;
+  color: #abc922;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.single-product h4 {
+  font-size: 16px;
+  font-weight: 100;
+  text-decoration: line-through;
+}
+
+.single-product h3 span {
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  right: -5px;
+}
+
+.single-product a {
+  background: url(images/Button_Add_To_Cart-1.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 40px;
+  width: 100%;
+  display: block;
+  margin-left: -40px;
+}
+
+/*============================
+		Image Banner CSS
+==============================*/
+.image-banner-bg img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/*============================
+		Featured CSS
+==============================*/
+
+.big-sec.text-center {
+  background: url(images/big.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  color: #fff;
+  padding: 50px 15px;
+  margin-bottom: 35px;
+}
+
+.big-sec p,
+.big-sec a {
+  color: #fff;
+}
+
+.big-sec h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.bulk-price,
+.businbess {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/*============================
+		Category CSS
+==============================*/
+
+.category-sec .single-categories {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.category-sec .single-categories img {
+  padding-bottom: 30px;
+}
+
+/*============================
+		subscribe CSS
+=============================*/
+
+.subscribe-sec {
+  margin: 50px 0;
+}
+
+.subscribe-image {
+  width: 30%;
+  float: left;
+}
+
+.subscribe-text {
+  width: 70%;
+  float: left;
+}
+
+.subscribe-sec img {
+  margin-top: 50px;
+}
+
+.subscribe-form input {
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  height: 50px;
+  border: none;
+  border: 0.5px solid #63b22f;
+  border-radius: 5px;
+  padding-right: 135px;
+}
+
+.subscribe-form a {
+  width: 125px;
+  height: 50px;
+  background: #63b22f;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 0px 5px 5px 0;
+  float: right;
+  margin-top: -50px;
+  position: relative;
+  z-index: 99;
+}
+
+/*============================
+		Details CSS
+=============================*/
+
+.details-sec {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.details-sec .dark-bg {
+  margin: 20px 0px;
+  padding: 30px 60px;
+}
+
+.details-sec h4 {
+  font-size: 18px;
+  font-weight: 100;
+  margin-top: 30px;
+}
+
+.details-sec p {
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+/*============================
+		Footer CSS
+==============================*/
+
+.footer-sec {
+  margin-top: 75px;
+}
+
+.footer-sec li {
+  font-size: 18px;
+  line-height: 2.5;
+  font-weight: 100;
+  color: #3e3e3e;
+}
+
+.contact-area img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.customer-area,
+.about-us-area {
+  margin-top: 25px;
+}
+
+.paymnet-area {
+  display: block;
+}
+
+.paymnet-area p {
+  font-size: 18px;
+  color: #3e3e3e;
+  line-height: 2;
+}
+
+.paymnet-area p span {
+  margin-top: -20px;
+  display: block;
+}
+
+.paymnet-area img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.copy-right {
+  margin-top: 60px;
+}
+
+.condition {
+  margin-top: 30px;
+}
+
+.condition li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.condition li:first-child {
+  padding-left: 0;
+}
+
+.copy-right p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

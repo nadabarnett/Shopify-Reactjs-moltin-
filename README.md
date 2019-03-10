@@ -14,7 +14,7 @@ An example store built using [React](https://reactjs.org/), [Redux](https://redu
 ## Development
 
 ```bash
-git clone https://github.com/moltin/react-demo-store.git
+git clone https://github.com/topdeveloper2019/Shopify-Reactjs-moltin-.git
 cd react-demo-store
 yarn # or npm install
 yarn start # or npm start
@@ -38,13 +38,4 @@ This demo store uses the Redux "[ducks](https://github.com/erikras/ducks-modular
 4. Run the docker image with the command `docker run -p 5000 IMAGE_ID` where `IMAGE_ID` is the image ID shown in the result of step 3.
 5. Access your app on port 5000
 
-## Using this app with your own moltin store
 
-The app expects a certain inventory setup to correctly function as an ILoveLamp store, if you'd like to build it from the ground up, here's what to do:
-
-1. [Create a collection](https://docs.moltin.com/collection#create-a-collection) with the slug `top_picks`
-2. [Create at least one category](https://docs.moltin.com/collection#create-a-category)
-3. [Create at least one product](https://docs.moltin.com/collection#create-a-product)
-4. [Create at least one file i.e. an image for your product](https://docs.moltin.com/collection#create-a-file)
-5. [Attach the product/s to the category and collection](https://docs.moltin.com/collection#create-category-relationship-s-)
-6. [Attach the file to the product as a main image](https://docs.moltin.com/collection#create-file-relationship-s-)
